@@ -36,8 +36,9 @@ body {
   background: var(--ink);
   color: var(--cream);
   font-family: var(--font-body);
-  font-size: clamp(17px, 1.2vw, 20px);
-  line-height: 1.8;
+  font-size: clamp(19px, 1.4vw, 23px);
+  font-weight: 400;
+  line-height: 1.9;
   overflow-x: hidden;
 }
 
@@ -56,19 +57,20 @@ a { color: inherit; }
 .section-label {
   display: block;
   font-family: var(--font-display);
-  font-size: 0.72rem;
+  font-size: 1.05rem;
   letter-spacing: 0.28em;
-  color: var(--camel);
+  color: var(--camel-light);
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 14px;
+  font-weight: 500;
 }
 
 .section-title {
   font-family: var(--font-display);
-  font-size: clamp(1.8rem, 3vw, 2.8rem);
+  font-size: clamp(2.1rem, 3.4vw, 3.1rem);
   font-weight: 400;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   text-align: center;
   color: var(--cream);
   line-height: 1.2;
@@ -145,7 +147,7 @@ a { color: inherit; }
 }
 .nav-brand-text {
   font-family: var(--font-display);
-  font-size: 0.82rem;
+  font-size: 1.05rem;
   letter-spacing: 0.16em;
   color: var(--cream);
   text-transform: uppercase;
@@ -153,7 +155,7 @@ a { color: inherit; }
 }
 .nav-brand-text small {
   display: block;
-  font-size: 0.52rem;
+  font-size: 0.8rem;
   letter-spacing: 0.28em;
   color: var(--camel);
   font-family: var(--font-display);
@@ -161,7 +163,7 @@ a { color: inherit; }
 
 .nav-action {
   font-family: var(--font-display);
-  font-size: 0.72rem;
+  font-size: 1.05rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   text-decoration: none;
@@ -228,7 +230,7 @@ a { color: inherit; }
 
 .hero-eyebrow {
   font-family: var(--font-display);
-  font-size: 0.72rem;
+  font-size: 1.05rem;
   letter-spacing: 0.28em;
   color: var(--camel);
   text-transform: uppercase;
@@ -266,9 +268,9 @@ a { color: inherit; }
 }
 
 .hero-tagline {
-  font-size: clamp(1rem, 1.4vw, 1.25rem);
+  font-size: clamp(1.2rem, 1.6vw, 1.5rem);
   font-style: italic;
-  color: rgba(225, 221, 216, 0.88);
+  color: rgba(225, 221, 216, 0.92);
   margin-bottom: 52px;
   position: relative;
   z-index: 1;
@@ -283,7 +285,7 @@ a { color: inherit; }
   background: var(--camel);
   color: var(--ink);
   font-family: var(--font-display);
-  font-size: 0.72rem;
+  font-size: 1.05rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   text-decoration: none;
@@ -314,7 +316,7 @@ a { color: inherit; }
 }
 .hero-scroll-hint span {
   font-family: var(--font-display);
-  font-size: 0.65rem;
+  font-size: 1rem;
   letter-spacing: 0.18em;
   color: rgba(170, 134, 93, 0.7);
   text-transform: uppercase;
@@ -454,7 +456,7 @@ a { color: inherit; }
   position: absolute;
   top: 20px; right: 24px;
   font-family: var(--font-display);
-  font-size: 0.65rem;
+  font-size: 1rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: rgba(225,221,216,0.75);
@@ -495,8 +497,9 @@ a { color: inherit; }
 .about-copy .section-title { text-align: left; }
 
 .about-copy p {
-  font-size: clamp(1rem, 1.2vw, 1.15rem);
-  color: rgba(225, 221, 216, 0.9);
+  font-size: clamp(1.15rem, 1.5vw, 1.35rem);
+  font-weight: 400;
+  color: #E1DDD8;
   margin-bottom: 18px;
 }
 .about-copy p:last-child { margin-bottom: 0; }
@@ -523,8 +526,8 @@ a { color: inherit; }
   margin-bottom: 8px;
 }
 .stat-lbl {
-  font-size: 0.95rem;
-  color: rgba(225, 221, 216, 0.72);
+  font-size: 1.12rem;
+  color: rgba(225, 221, 216, 0.92);
   font-style: italic;
 }
 
@@ -547,13 +550,13 @@ a { color: inherit; }
 }
 .tab-btn {
   font-family: var(--font-display);
-  font-size: 0.72rem;
+  font-size: 1.05rem;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   padding: 13px 36px;
   background: transparent;
   border: none;
-  color: rgba(225, 221, 216, 0.7);
+  color: rgba(225, 221, 216, 0.9);
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
 }
@@ -593,7 +596,7 @@ a { color: inherit; }
   top: -1px; left: 50%;
   transform: translateX(-50%);
   font-family: var(--font-display);
-  font-size: 0.65rem;
+  font-size: 1rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   background: var(--camel);
@@ -604,15 +607,15 @@ a { color: inherit; }
 
 .pcard-tier {
   font-family: var(--font-display);
-  font-size: 0.68rem;
-  letter-spacing: 0.18em;
+  font-size: 0.98rem;
+  letter-spacing: 0.15em;
   color: var(--camel);
   text-transform: uppercase;
   margin-bottom: 8px;
 }
 .pcard-name {
   font-family: var(--font-display);
-  font-size: clamp(1.6rem, 2.2vw, 2.2rem);
+  font-size: clamp(1.9rem, 2.6vw, 2.5rem);
   font-weight: 400;
   letter-spacing: 0.04em;
   color: var(--cream);
@@ -620,15 +623,15 @@ a { color: inherit; }
 }
 .pcard-price {
   font-family: var(--font-display);
-  font-size: clamp(1.2rem, 1.6vw, 1.55rem);
+  font-size: clamp(1.4rem, 1.9vw, 1.8rem);
   color: var(--camel);
   padding-bottom: 24px;
   margin-bottom: 24px;
   border-bottom: 1px solid rgba(170, 134, 93, 0.18);
 }
 .pcard-price small {
-  font-size: 0.68em;
-  color: rgba(225, 221, 216, 0.65);
+  font-size: 0.85em;
+  color: rgba(225, 221, 216, 0.85);
   font-family: var(--font-body);
   font-weight: 300;
 }
@@ -638,8 +641,9 @@ a { color: inherit; }
   margin-bottom: 32px;
 }
 .pcard-features li {
-  font-size: 1.05rem;
-  color: rgba(225, 221, 216, 0.9);
+  font-size: 1.18rem;
+  font-weight: 400;
+  color: rgba(225, 221, 216, 0.95);
   padding: 5px 0;
   display: flex;
   gap: 10px;
@@ -652,7 +656,7 @@ a { color: inherit; }
   color: var(--camel);
   opacity: 0.6;
   flex-shrink: 0;
-  font-size: 0.65em;
+  font-size: 0.82em;
   position: relative;
   top: -1px;
 }
@@ -661,8 +665,8 @@ a { color: inherit; }
   display: block;
   text-align: center;
   font-family: var(--font-display);
-  font-size: 0.54rem;
-  letter-spacing: 0.22em;
+  font-size: 0.88rem;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
   text-decoration: none;
   color: var(--camel);
@@ -685,7 +689,7 @@ a { color: inherit; }
 }
 .extras-title {
   font-family: var(--font-display);
-  font-size: 0.68rem;
+  font-size: 0.9rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--camel);
@@ -699,9 +703,9 @@ a { color: inherit; }
   justify-content: center;
 }
 .extra-pill {
-  font-size: 0.95rem;
-  color: rgba(225, 221, 216, 0.75);
-  padding: 5px 14px;
+  font-size: 1.12rem;
+  color: rgba(225, 221, 216, 0.92);
+  padding: 7px 16px;
   border: 1px solid rgba(170, 134, 93, 0.12);
   font-style: italic;
 }
@@ -740,7 +744,7 @@ a { color: inherit; }
   background: #25D366;
   color: #fff;
   font-family: var(--font-display);
-  font-size: 0.62rem;
+  font-size: 1rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   text-decoration: none;
@@ -754,8 +758,8 @@ a { color: inherit; }
 
 .cta-legal {
   margin-top: 28px;
-  font-size: 0.76rem;
-  color: rgba(225, 221, 216, 0.55);
+  font-size: 1rem;
+  color: rgba(225, 221, 216, 0.72);
   font-style: italic;
 }
 
@@ -772,9 +776,9 @@ footer {
 .footer-brand {
   margin-bottom: 28px;
   font-family: var(--font-display);
-  font-size: 0.72rem;
+  font-size: 1.05rem;
   letter-spacing: 0.18em;
-  color: rgba(225, 221, 216, 0.6);
+  color: rgba(225, 221, 216, 0.82);
   text-transform: uppercase;
 }
 
@@ -790,16 +794,16 @@ footer {
   font-size: 0.7rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: rgba(225, 221, 216, 0.6);
+  color: rgba(225, 221, 216, 0.82);
   text-decoration: none;
   transition: color 0.3s;
 }
 .footer-nav a:hover { color: var(--camel); }
 
 .footer-copy {
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-style: italic;
-  color: rgba(225, 221, 216, 0.7);
+  color: rgba(225, 221, 216, 0.9);
 }
 
 /* ════════════════════════════════════════
@@ -840,7 +844,7 @@ footer {
   transform: translateY(-50%);
   background: none;
   border: 1px solid rgba(225, 221, 216, 0.18);
-  color: rgba(225, 221, 216, 0.5);
+  color: rgba(225, 221, 216, 0.92);
   font-size: 1rem;
   padding: 13px 17px;
   cursor: pointer;
@@ -1056,14 +1060,14 @@ footer {
     <!-- Testimonio 1 -->
     <div class="reveal" style="border:1px solid rgba(170,134,93,0.18);padding:36px 30px;position:relative;transition:border-color 0.3s" onmouseover="this.style.borderColor='rgba(170,134,93,0.45)'" onmouseout="this.style.borderColor='rgba(170,134,93,0.18)'">
       <div style="color:var(--camel);font-size:1.1rem;letter-spacing:0.05em;margin-bottom:20px">★★★★★</div>
-      <p style="font-size:clamp(1rem,1.15vw,1.15rem);font-style:italic;color:rgba(225,221,216,0.82);line-height:1.75;margin-bottom:24px">
+      <p style="font-size:clamp(1.15rem,1.4vw,1.35rem);font-style:italic;color:rgba(225,221,216,0.95);line-height:1.75;margin-bottom:24px">
         "Más que un recuerdo... Pedacitos de felicidad guardadas en imágenes."
       </p>
       <div style="display:flex;align-items:center;gap:10px">
-        <div style="width:36px;height:36px;border-radius:50%;background:rgba(170,134,93,0.15);border:1px solid rgba(170,134,93,0.3);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:0.75rem;color:var(--camel)">E</div>
+        <div style="width:36px;height:36px;border-radius:50%;background:rgba(170,134,93,0.15);border:1px solid rgba(170,134,93,0.3);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:0.95rem;color:var(--camel)">E</div>
         <div>
-          <div style="font-family:var(--font-display);font-size:0.62rem;letter-spacing:0.12em;color:var(--cream)">Elias Velarde</div>
-          <div style="font-size:0.8rem;color:rgba(225,221,216,0.4);font-style:italic">Local Guide · Google</div>
+          <div style="font-family:var(--font-display);font-size:1.02rem;letter-spacing:0.1em;color:var(--cream)">Elias Velarde</div>
+          <div style="font-size:1.05rem;color:rgba(225,221,216,0.7);font-style:italic">Local Guide · Google</div>
         </div>
       </div>
     </div>
@@ -1071,14 +1075,14 @@ footer {
     <!-- Testimonio 2 -->
     <div class="reveal" style="border:1px solid rgba(170,134,93,0.28);padding:36px 30px;background:rgba(170,134,93,0.04);position:relative;transition:border-color 0.3s" onmouseover="this.style.borderColor='rgba(170,134,93,0.6)'" onmouseout="this.style.borderColor='rgba(170,134,93,0.28)'">
       <div style="color:var(--camel);font-size:1.1rem;letter-spacing:0.05em;margin-bottom:20px">★★★★★</div>
-      <p style="font-size:clamp(1rem,1.15vw,1.15rem);font-style:italic;color:rgba(225,221,216,0.82);line-height:1.75;margin-bottom:24px">
+      <p style="font-size:clamp(1.15rem,1.4vw,1.35rem);font-style:italic;color:rgba(225,221,216,0.95);line-height:1.75;margin-bottom:24px">
         "Una experiencia inolvidable. No solo son profesionales talentosos, sino también seres humanos con mucha empatía."
       </p>
       <div style="display:flex;align-items:center;gap:10px">
-        <div style="width:36px;height:36px;border-radius:50%;background:rgba(170,134,93,0.15);border:1px solid rgba(170,134,93,0.3);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:0.75rem;color:var(--camel)">S</div>
+        <div style="width:36px;height:36px;border-radius:50%;background:rgba(170,134,93,0.15);border:1px solid rgba(170,134,93,0.3);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:0.95rem;color:var(--camel)">S</div>
         <div>
-          <div style="font-family:var(--font-display);font-size:0.62rem;letter-spacing:0.12em;color:var(--cream)">Sharai Patricia Delgado</div>
-          <div style="font-size:0.8rem;color:rgba(225,221,216,0.4);font-style:italic">Google</div>
+          <div style="font-family:var(--font-display);font-size:1.02rem;letter-spacing:0.1em;color:var(--cream)">Sharai Patricia Delgado</div>
+          <div style="font-size:1.05rem;color:rgba(225,221,216,0.7);font-style:italic">Google</div>
         </div>
       </div>
     </div>
@@ -1086,14 +1090,14 @@ footer {
     <!-- Testimonio 3 -->
     <div class="reveal" style="border:1px solid rgba(170,134,93,0.18);padding:36px 30px;position:relative;transition:border-color 0.3s" onmouseover="this.style.borderColor='rgba(170,134,93,0.45)'" onmouseout="this.style.borderColor='rgba(170,134,93,0.18)'">
       <div style="color:var(--camel);font-size:1.1rem;letter-spacing:0.05em;margin-bottom:20px">★★★★★</div>
-      <p style="font-size:clamp(1rem,1.15vw,1.15rem);font-style:italic;color:rgba(225,221,216,0.82);line-height:1.75;margin-bottom:24px">
+      <p style="font-size:clamp(1.15rem,1.4vw,1.35rem);font-style:italic;color:rgba(225,221,216,0.95);line-height:1.75;margin-bottom:24px">
         "Una experiencia única, divertida y mágica. Quisiéramos casarnos cada fin de semana para volver a repetir la experiencia."
       </p>
       <div style="display:flex;align-items:center;gap:10px">
-        <div style="width:36px;height:36px;border-radius:50%;background:rgba(170,134,93,0.15);border:1px solid rgba(170,134,93,0.3);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:0.75rem;color:var(--camel)">C</div>
+        <div style="width:36px;height:36px;border-radius:50%;background:rgba(170,134,93,0.15);border:1px solid rgba(170,134,93,0.3);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:0.95rem;color:var(--camel)">C</div>
         <div>
-          <div style="font-family:var(--font-display);font-size:0.62rem;letter-spacing:0.12em;color:var(--cream)">C-sar ZavantZ</div>
-          <div style="font-size:0.8rem;color:rgba(225,221,216,0.4);font-style:italic">Google</div>
+          <div style="font-family:var(--font-display);font-size:1.02rem;letter-spacing:0.1em;color:var(--cream)">C-sar ZavantZ</div>
+          <div style="font-size:1.05rem;color:rgba(225,221,216,0.7);font-style:italic">Google</div>
         </div>
       </div>
     </div>
@@ -1101,7 +1105,7 @@ footer {
   </div>
 
   <div style="text-align:center;margin-top:36px">
-    <a href="https://maps.app.goo.gl/jaiqdeDMdnsWAZvu7" target="_blank" style="font-family:var(--font-display);font-size:0.58rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(170,134,93,0.6);text-decoration:none;transition:color 0.3s" onmouseover="this.style.color='#AA865D'" onmouseout="this.style.color='rgba(170,134,93,0.6)'">
+    <a href="https://maps.app.goo.gl/jaiqdeDMdnsWAZvu7" target="_blank" style="font-family:var(--font-display);font-size:0.85rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(170,134,93,0.6);text-decoration:none;transition:color 0.3s" onmouseover="this.style.color='#AA865D'" onmouseout="this.style.color='rgba(170,134,93,0.6)'">
       Ver todas las reseñas en Google →
     </a>
   </div>
@@ -1152,7 +1156,7 @@ footer {
         <h3 class="pcard-name">Eterno</h3>
         <div class="pcard-price">Bs. 5,800 <small>/ evento</small></div>
         <ul class="pcard-features">
-          <li>2 fotógrafos + 1 asistente técnico</li>
+          <li>1 fotógrafo + 1 asistente técnico</li>
           <li>Hasta 11 horas de cobertura</li>
           <li>Sesión Pre Boda o Post Boda incluida</li>
           <li>250+ fotografías digitales</li>
@@ -1194,8 +1198,6 @@ footer {
         <span class="extra-pill">Sesión Pre/Post Boda — Bs. 850</span>
         <span class="extra-pill">Técnico adicional — Bs. 700</span>
         <span class="extra-pill">Hora extra — Bs. 500</span>
-        <span class="extra-pill">Drone — Bs. 400 / batería</span>
-        <span class="extra-pill">Grúa — Bs. 500</span>
         <span class="extra-pill">Copia en bruto — Bs. 500</span>
         <span class="extra-pill">Pendrive adicional — Bs. 250</span>
       </div>
